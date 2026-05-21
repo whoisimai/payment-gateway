@@ -1,10 +1,10 @@
-# Payment Gateway Backend Documentation Generation Prompt
+# Payment Gateway Backend Documentation
 
-You are an expert technical writer specializing in payment systems and backend architecture. Your task is to generate comprehensive, professional documentation for a PayFast payment gateway backend application. Use the following detailed specifications to create documentation that covers architecture, implementation, security, and best practices.
+PayFast payment gateway backend application.
 
 ## Project Overview
 
-**Application Name:** Dary's Backend Payment Gateway
+**Application Name:** Backend Payment Gateway
 **Purpose:** A TypeScript/Express-based payment processing backend that integrates with PayFast (South African payment processor) to handle payment initiation, verification, and webhook notifications.
 
 **Tech Stack:**
@@ -35,7 +35,7 @@ payment-gateway/
 Document the three-tier architecture:
 - **Presentation Layer:** Express.js server handling HTTP requests
 - **Business Logic Layer:** PayFast controller with payment processing and signature verification
-- **External Integration Layer:** PayFast API and MyMobileAPI (SMS notifications)
+- **External Integration Layer:** PayFast API and BulkSMSAPI (SMS notifications)
 
 ### 2. Core Workflows
 
@@ -279,4 +279,4 @@ npm start      # Runs compiled JavaScript
 
 ---
 
-**Note:** This documentation should be updated whenever new features are added, dependencies updated, or security measures implemented. Maintain version history of this documentation.
+**Note:** This documentation will be updated whenever new features are added, dependencies updated, or security measures implemented. Maintain version history of this documentation.
